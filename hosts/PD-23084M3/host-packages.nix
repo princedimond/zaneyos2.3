@@ -14,7 +14,7 @@
     gscreenshot
     github-desktop
     gitkraken
-    warp-terminal
+    #warp-terminal
     protonvpn-gui
     expressvpn
     direnv

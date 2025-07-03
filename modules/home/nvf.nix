@@ -12,13 +12,33 @@
       vimAlias = true;
       viAlias = true;
       withNodeJs = true;
-      useSystemClipboard = true;
 
       options = {
         tabstop = 2;
         shiftwidth = 2;
         wrap = false;
       };
+
+      clipboard = {
+        enable = true;
+        registers = "unnamedplus";
+        providers = {
+          wl-copy.enable = true;
+          xsel.enable = true;
+        };
+      };
+
+      #settings.vim = {
+      #vimAlias = true;
+      #viAlias = true;
+      #withNodeJs = true;
+      #useSystemClipboard = true;
+
+      #options = {
+      # tabstop = 2;
+      #  shiftwidth = 2;
+      #  wrap = false;
+      #};
 
       keymaps = [
         {
