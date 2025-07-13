@@ -4,7 +4,11 @@
   gitEmail = "princedimond@gmail.com";
 
   # Hyprland Settings
-  extraMonitorSettings = "";
+  extraMonitorSettings = "
+    monitor = DP-2,1920x1080@60,-1920x0,1
+    monitor = eDP-1,1920x1080@60,0x0,1
+    monitor = DP-1,1920x1080@60,1920x0,1
+    ";
 
   # Waybar Settings
   clock24h = true;
@@ -30,7 +34,8 @@
 
   # Set Waybar
   # Includes alternates such as waybar-curved.nix & waybar-ddubs.nix
-  waybarChoice = ../../modules/home/waybar/waybar-simple.nix;
+  #waybarChoice = ../../modules/home/waybar/waybar-simple.nix;
+  waybarChoice = ../../modules/home/waybar/waybar-ddubs.nix;
 
   # Set Animation style
   # Available options are:

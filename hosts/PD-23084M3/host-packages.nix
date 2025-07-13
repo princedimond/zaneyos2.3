@@ -38,5 +38,7 @@
     notion-app-enhanced
     heroic-unwrapped
     lima
+    putty
+    winbox4
   ];
 }
