@@ -36,6 +36,7 @@ in {
       "networkmanager"
       "scanner"
       "wheel"
+      "dialout"
     ];
     shell = pkgs.zsh;
     ignoreShellProgramCheck = true;

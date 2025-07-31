@@ -61,5 +61,6 @@
     yazi #TUI File Manager
     ytmdl # Tool For Downloading Audio From YouTube
     microsoft-edge # Swiss army knife of web browsers
+    putty
   ];
 }
